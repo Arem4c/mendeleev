@@ -1,0 +1,361 @@
+var tableElements = [{
+    symbol: "H",
+    index: "1",
+    mass: "1,008",
+    name: "Водород",
+    electrons: [1],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "He",
+    index: "2",
+    mass: "4,0026",
+    name: "Гелий",
+    electrons: [2],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "Li",
+    index: "3",
+    mass: "6,94",
+    name: "Литий",
+    electrons: [2, 1],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}, {
+    symbol: "",
+    index: "",
+    mass: "",
+    name: "",
+    electrons: [],
+    side: "left",
+    color: "purple"
+}];
