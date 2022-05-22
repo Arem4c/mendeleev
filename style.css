@@ -1,5 +1,5 @@
 :root {
-    font-size: 1.5em;
+    font-size: 0.8em;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
 .table {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    gap: 0.3em;
 }
 
 .symdex {
@@ -34,7 +35,6 @@ body {
 }
 
 .cell {
-    width: 6em;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
     grid-template-areas: "symbol index electrons" "name name electrons" "mass mass electrons";
