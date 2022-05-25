@@ -1,4 +1,51 @@
 var tableElements = [{
+        name: "Группы элементов",
+        span: "span-11",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "I",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "II",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "III",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "IV",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "V",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "VI",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "VII",
+        type: "title",
+        color: "beige",
+    },
+    {
+        name: "VIII",
+        type: "title",
+        color: "beige",
+        span: "span-4",
+    },
+    {
         symbol: "H",
         index: "1",
         mass: "1,008",
@@ -8,33 +55,15 @@ var tableElements = [{
         color: "purple",
         type: "element",
     },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
     {
         symbol: "He",
         index: "2",
@@ -115,15 +144,9 @@ var tableElements = [{
         color: "yellow",
         type: "element",
     },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
     {
         symbol: "Ne",
         index: "10",
@@ -204,15 +227,9 @@ var tableElements = [{
         color: "yellow",
         type: "element",
     },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
     {
         symbol: "Ar",
         index: "18",
@@ -323,9 +340,7 @@ var tableElements = [{
         color: "blue",
         type: "element",
     },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
     {
         symbol: "Cu",
         index: "29",
@@ -396,15 +411,9 @@ var tableElements = [{
         color: "yellow",
         type: "element",
     },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
     {
         symbol: "Kr",
         index: "36",
@@ -515,9 +524,7 @@ var tableElements = [{
         color: "blue",
         type: "element",
     },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
     {
         symbol: "Ag",
         index: "47",
@@ -588,15 +595,9 @@ var tableElements = [{
         color: "yellow",
         type: "element",
     },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
     {
         symbol: "Xe",
         index: "54",
@@ -627,12 +628,7 @@ var tableElements = [{
         color: "purple",
         type: "element",
     },
-    {
-        type: "lan",
-        index: "57-71",
-        name: "Лантаноиды",
-        color: "green",
-    },
+    { type: "lan", index: "57-71", name: "Лантаноиды", color: "green" },
     {
         symbol: "La",
         index: "57",
@@ -640,8 +636,8 @@ var tableElements = [{
         name: "Лантан",
         electrons: [2, 8, 18, 18, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Ce",
@@ -650,8 +646,8 @@ var tableElements = [{
         name: "Церий",
         electrons: [2, 8, 18, 19, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Pr",
@@ -660,8 +656,8 @@ var tableElements = [{
         name: "Празеодим",
         electrons: [2, 8, 18, 18, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Nd",
@@ -670,8 +666,8 @@ var tableElements = [{
         name: "Неодим",
         electrons: [2, 8, 18, 21, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Pm",
@@ -680,8 +676,8 @@ var tableElements = [{
         name: "Прометий",
         electrons: [2, 8, 18, 22, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Sm",
@@ -690,8 +686,8 @@ var tableElements = [{
         name: "Самарий",
         electrons: [2, 8, 18, 23, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Eu",
@@ -700,8 +696,8 @@ var tableElements = [{
         name: "Европий",
         electrons: [2, 8, 18, 25, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Gd",
@@ -710,8 +706,8 @@ var tableElements = [{
         name: "Гадолиний",
         electrons: [2, 8, 18, 25, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Tb",
@@ -720,8 +716,8 @@ var tableElements = [{
         name: "Тербий",
         electrons: [2, 8, 18, 27, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Dy",
@@ -730,8 +726,8 @@ var tableElements = [{
         name: "Диспрозий",
         electrons: [2, 8, 18, 28, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Ho",
@@ -740,8 +736,8 @@ var tableElements = [{
         name: "Гольмий",
         electrons: [2, 8, 18, 29, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Er",
@@ -750,8 +746,8 @@ var tableElements = [{
         name: "Эрбий",
         electrons: [2, 8, 18, 30, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Tm",
@@ -760,8 +756,8 @@ var tableElements = [{
         name: "Тулий",
         electrons: [2, 8, 18, 31, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Yb",
@@ -770,8 +766,8 @@ var tableElements = [{
         name: "Иттербий",
         electrons: [2, 8, 18, 32, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "lu",
@@ -780,8 +776,8 @@ var tableElements = [{
         name: "Лютеций",
         electrons: [2, 8, 18, 32, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "lantanoid",
     },
     {
         symbol: "Hf",
@@ -853,9 +849,7 @@ var tableElements = [{
         color: "blue",
         type: "element",
     },
-    {
-        type: "empty",
-    },
+    { type: "empty" },
     {
         symbol: "Au",
         index: "79",
@@ -907,15 +901,6 @@ var tableElements = [{
         type: "element",
     },
     {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
-        type: "empty",
-    },
-    {
         symbol: "Po",
         index: "84",
         mass: "209",
@@ -935,6 +920,9 @@ var tableElements = [{
         color: "yellow",
         type: "element",
     },
+    { type: "empty" },
+    { type: "empty" },
+    { type: "empty" },
     {
         symbol: "Rn",
         index: "86",
@@ -965,12 +953,7 @@ var tableElements = [{
         color: "purple",
         type: "element",
     },
-    {
-        type: "act",
-        index: "89-103",
-        name: "Актиноиды",
-        color: "green",
-    },
+    { type: "act", index: "89-103", name: "Актиноиды", color: "green" },
     {
         symbol: "Ac",
         index: "89",
@@ -978,8 +961,8 @@ var tableElements = [{
         name: "Актиний",
         electrons: [2, 8, 18, 32, 18, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Th",
@@ -988,8 +971,8 @@ var tableElements = [{
         name: "Торий",
         electrons: [2, 8, 18, 32, 18, 10, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Pa",
@@ -998,8 +981,8 @@ var tableElements = [{
         name: "Протактиний",
         electrons: [2, 8, 18, 32, 20, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "U",
@@ -1008,8 +991,8 @@ var tableElements = [{
         name: "Уран",
         electrons: [2, 8, 18, 32, 21, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Np",
@@ -1018,8 +1001,8 @@ var tableElements = [{
         name: "Нептуний",
         electrons: [2, 8, 18, 32, 22, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Pu",
@@ -1028,8 +1011,8 @@ var tableElements = [{
         name: "Плутоний",
         electrons: [2, 8, 18, 32, 24, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Am",
@@ -1038,8 +1021,8 @@ var tableElements = [{
         name: "Америций",
         electrons: [2, 8, 18, 32, 25, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Cm",
@@ -1048,8 +1031,8 @@ var tableElements = [{
         name: "Кюрий",
         electrons: [2, 8, 18, 32, 25, 9, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Bk",
@@ -1058,8 +1041,8 @@ var tableElements = [{
         name: "Берклий",
         electrons: [2, 8, 18, 32, 27, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Cf",
@@ -1068,8 +1051,8 @@ var tableElements = [{
         name: "Калифорний",
         electrons: [2, 8, 18, 32, 28, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Es",
@@ -1078,8 +1061,8 @@ var tableElements = [{
         name: "Эйнштейний",
         electrons: [2, 8, 18, 32, 29, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Fm",
@@ -1088,8 +1071,8 @@ var tableElements = [{
         name: "Фермий",
         electrons: [2, 8, 18, 32, 30, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Md",
@@ -1098,8 +1081,8 @@ var tableElements = [{
         name: "Менделевий",
         electrons: [2, 8, 18, 32, 31, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "No",
@@ -1108,8 +1091,8 @@ var tableElements = [{
         name: "Нобелий",
         electrons: [2, 8, 18, 32, 32, 8, 2],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Lr",
@@ -1118,8 +1101,8 @@ var tableElements = [{
         name: "Лоуренсий",
         electrons: [2, 8, 18, 32, 32, 8, 3],
         side: "right",
-        color: "yellow",
-        type: "element",
+        color: "green",
+        type: "actinoid",
     },
     {
         symbol: "Rf",
