@@ -58,8 +58,6 @@ body {
 
 .cell {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
-    grid-template-areas: "symbol index electrons" "name name electrons" "mass mass electrons";
     border: 1px solid black;
     padding: 0.15rem;
 }
@@ -73,6 +71,11 @@ body {
 .cell.right {
     grid-template-columns: 1fr 1fr 3fr;
     grid-template-areas: "electrons index symbol" "electrons name name" "electrons mass mass";
+}
+
+.cell.left {
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-areas: "symbol index electrons" "name name electrons" "mass mass electrons";
 }
 
 .symbol {
@@ -140,7 +143,7 @@ body {
     grid-area: electrons;
     flex-direction: column;
     list-style: none;
-    font-size: 0.5rem;
+    font-size: 0.5em;
     margin: 0;
     padding: 0;
     justify-content: flex-end;
@@ -171,4 +174,42 @@ body {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     gap: 0.2em;
+}
+
+.cell.details {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotateX(60deg);
+    font-size: 10rem;
+    padding: 0.2em;
+    transform-origin: right;
+}
+
+.cell.details.left {
+    grid-template-areas: "symbol  electrons electrons" "name name name" "mass mass index";
+}
+
+.cell.details.left .electrons {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.3em;
+}
+
+.cell.details .symbol {
+    transform: rotateX(-60deg);
+}
+
+.cell.details .electrons li {
+    height: 1px;
+}
+
+.cell.details .electrons li::before {
+    content: "";
+    position: absolute;
+    top: -0.5em;
+    background-color: white;
+    width: 0.5em;
+    height: 0.5em;
+    transform: rotateZ(30deg);
 }

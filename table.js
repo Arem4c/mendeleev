@@ -150,6 +150,9 @@ function addCell(e) {
             console.log(ev.target, e);
         });
     }
+    if (e.symbol === "Ge") {
+        cell.classList.add("details");
+    }
 }
 tableElements.forEach((tableElement) => {
     addCell(tableElement);
